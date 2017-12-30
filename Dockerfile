@@ -10,7 +10,7 @@ RUN cd /root && wget https://github.com/innovacoin/sentinel/releases/download/li
 
 RUN cd /root && chmod +x *.sh && ./linux_masternode_setup_script.sh
 
-RUN cd /root && mv innova/* /root/ && rm -rf *.sh && rm -rf temp innova
+RUN cd /root && mv innova/* /root/ && rm -rf temp innova
 
 WORKDIR /root
 
