@@ -1,0 +1,11 @@
+version: '2'
+services:
+  mn-inn:
+    image: inn
+    container_name: mn-inn
+    build:
+      context: .
+    ports:
+      - 4235:4235/tcp
+    volumes:
+      - $PWD/.innova:/root/.innovacore
