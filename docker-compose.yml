@@ -8,4 +8,4 @@ services:
     ports:
       - 4235:4235/tcp
     volumes:
-      - $PWD/.innova:/root/.innovacore
+      - $PWD/.innova:/root/innova/.innovacore
